@@ -4,7 +4,6 @@ import useData from './hooks/useData'
 import Loader from './components/Loader/Loader'
 import NavBar from './components/NavBar/NavBar'
 
-
 function App() {
   const { data: books, loading } = useData()
   return (
