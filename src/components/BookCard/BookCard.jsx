@@ -3,7 +3,6 @@ import styles from './styles.module.scss'
 
 export default function BookCard({book}){
 
-  console.log(book);
 
   return  <div className={`card h-100 ${styles.book}`}>
     <h2>{book.title}</h2>
